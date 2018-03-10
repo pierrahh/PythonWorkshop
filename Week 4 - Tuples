@@ -1,3 +1,4 @@
+#tuples
 greetings = ["hello", "goodbye", "howdy", "fancy.."]
 for i, greeting in enumerate(greetings):
   print("the", i, 'th greeting is', greetings[i])
