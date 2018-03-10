@@ -1,0 +1,6 @@
+L = list(range(100))
+# squares = []
+# for i in L:
+#   squares.append(i*i)
+squares = {i : i*i for i in L}
+print(squares)
