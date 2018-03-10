@@ -1,0 +1,10 @@
+greetings = ["hello", "goodbye", "howdy", "fancy.."]
+for i, greeting in enumerate(greetings):
+  print("the", i, 'th greeting is', greetings[i])
+ 
+#Ziping Tuples
+
+greetings = ["hello", "goodbye", "howdy", "fancy.."]
+names = ["Lucy", "Larry", "Lana", "Lloyd"]
+for greeting, name in zip(greetings, names):
+  print(greeting, ",", name)
